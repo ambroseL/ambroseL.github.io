@@ -28,6 +28,19 @@ $(function() {
         playgroungVivus.play();
         })
     }         
+
+    $('outline-button').bind('touchstart', function(e){
+        //some action
+        $(this).addClass("active")
+                .bind("touchend", function() {
+                    $(this).removeClass("active");
+                    // $(this).removeClass("focus");
+                });
+      });
+      
+    // $('selector').bind('touchend', function(){
+    //     //set timeout and action
+    // });
         // document.addEventListener('aos:in:playground', function(){
         //     console.log('hhhh');
         // });
