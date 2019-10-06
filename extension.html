@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Icon CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Animate CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+    <!-- In <head> after the Bootstrap CSS. -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css" type="text/css">
+    <link rel="stylesheet" href="css/case.css" type="text/css">
+    <link rel="stylesheet" href="css/social_icon.css" type="text/css">
+    <title>Customer Profile Chrome Extension | Lidong</title>
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Font -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+  </head>
+  <body data-spy="scroll" data-target="#list-example" data-offset="0">
+      <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <div class="designer-info d-flex align-items-end">
+              <a class="home-link d-inline-flex align-items-center" href="index.html">
+                <img class="designer-icon" src="img/nav/icon.svg" height="40" alt="logo">
+                <h4 class="designer-name">LIDONG</h4>
+              </a>
+            </div>      
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown align-items-center">
+                    <a class="nav-link dropdown-toggle work-nav-link" href="index.html#works" id="navbarDropdown">Works</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="integration.html">Data Integration Hub</a></li>
+                        <li><a class="dropdown-item" href="extension.html">Profile Chrome Extension</a></li>
+                        <li><a class="dropdown-item" href="tencent.html">Tencent</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link playground-nav-link" href="index.html#playground">Playground</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://iu.box.com/s/vnhcxbqk8vj70l2i4gu533oa8gdhl6ep" target="_blank">Resume</a>
+                </li>
+              </ul>
+            </div>
+          </div> 
+    </nav>    
+    <main>
+      <div class="content-list">
+            <div id="list-example" class="list-group">
+              <div class="list-items">
+                  <a class="list-group-item list-group-item-action primary-list-item" href="#list-item-1">OVERVIEW</a>
+                  <div class="secondary-list-items">
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-2">Customer profiles are too heavy to digest</a>
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-3">Extract targeted insights into a lightweight Chrome extension</a>
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-4">Impact</a>
+                  </div>
+              </div>
+              <div class="list-items">
+                  <a class="list-group-item list-group-item-action primary-list-item" href="#list-item-5">DISCOVERY</a>
+                  <div class="secondary-list-items">
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-6">Customer profiles: a unified view of customer data</a>
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-7">How the current customer profiles work in marketing and customer support</a> 
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-8">The heavy profiles impede relevant insights</a> 
+                  </div>
+              </div>
+              <div class="list-items">
+                  <a class="list-group-item list-group-item-action primary-list-item" href="#list-item-9">IDEATION</a>
+                  <div class="secondary-list-items">
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-10">How might we supply targeted insights in a lightweight view</a>
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-11">A Chrome extension view of customer profiles</a>              
+                  </div>
+              </div>
+              <div class="list-items">
+                  <a class="list-group-item list-group-item-action primary-list-item" href="#list-item-12">DESIGN ITERATIONS</a>
+                  <div class="secondary-list-items">
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-13">Supply relevant customer insights</a> 
+                      <a class="list-group-item list-group-item-action secondary-list-item" href="#list-item-14">Present a lightweight view</a>
+                  </div>
+              </div>
+              <a class="list-group-item list-group-item-action" href="#list-item-15">FINAL DESIGN</a>
+            </div> 
+      </div>
+      <div class="cover" data-aos="fade-up">
+        <div class="container">
+          <div class="case-section-text">
+              <p class="text-uppercase">ARM TREASURE DATA, PRODUCT DESIGN</p>
+              <h1><b>Customer Profile Chrome Extension</b></h1>
+              <h3>Provide lightweight customer profiles for marketing and customer service</h3>
+          </div>
+        </div>
+        <div class="container-fluid d-flex flex-column">
+            <img class="prototype-img align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usmh7Q.png" alt="usmh7Q.png" border="0"/>
+        </div>
+        <div class="case-intro-space container">
+          <div class="row">
+              <div class="case-intro-left col-lg-3">
+                  <div class="case-intro-section">
+                    <p><b>Duration</b></p>
+                    <p>6 weeks</p>
+                  </div>
+                  <div class="case-intro-section">
+                    <p><b>Role</b></p>
+                    <p>Product Design Intern</p>
+                  </div>
+                  <div class="case-intro-section">
+                    <p><b>Tools</b></p>
+                    <p>Figma, Principle</p>
+                  </div>
+              </div>
+              <div class="case-intro-right col-lg-9">
+                <p>Working with two PMs and the sales team closely, my job included:</p>
+                <ul >
+                  <li>Explored and redesigned the customer profiles in a new Chrome extension</li>
+                  <li>Delivered research findings, prototypes and high-fi specifications for sales demos</li>
+                  <li>Verified design assumptions through 1:1 meetings, design critiques, and stakeholder reviews</li>
+                </ul>  
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="content-container back-gray" id="list-item-1">
+        <div class="container d-flex flex-column">
+          <div class="text-content align-self-end">
+            <section data-aos="fade-left">
+              <div class="section-text">
+                    <p class="text-uppercase" id="list-item-2">Problem</p>
+                    <h3><b>Customer profiles are too heavy to digest</b></h3> 
+              </div> 
+              <p>The Customer 360 of Arm Treasure Data levels up marketing and customer service with consolidated customer profiles. However, the current information is so heavy that:</p> 
+              <ul>
+                <li>It is time-consuming to load the profiles</li>
+                <li>It is hard to gather relevant insights</li>
+              </ul>  
+            </section>
+            <section data-aos="fade-left">
+              <div class="section-text">
+                    <p class="text-uppercase" id="list-item-3">Solution</p>
+                    <h3><b>Extract targeted insights into a lightweight Chrome extension</b></h3> 
+              </div> 
+              <p>Alternatively, the customer profile Chrome extension pictures customer data in a lightweight view. It brings benefits in:</p> 
+              <ul>
+                <li>Saving load time of customer profiles</li>
+                <li>Uncovering targeted insights into specific scenarios</li>
+              </ul>
+              <br>
+              <p><b>01. Access specific profiles with one click</b></p>
+              <p>While browsing a CRM / support deck, users can highlight and right-click on a customer’s name, scan the page or search within the chrome extension to access in-depth insights ranging from the dashboard, behaviors to attributes.</p>   
+            </section>  
+          </div>
+        </div>
+        <div class="container-fluid  d-flex flex-column">
+            <img class="prototype-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usnShR.gif" alt="usnShR.gif" border="1" />
+        </div>  
+        <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                <section>
+                  <p><b>02. Track related traffic on one page</b></p> 
+                  <p>When it is triggered over a campaign event page, the chrome extension can detect the campaign information automatically and consolidate corresponding customer traffic over time.</p>
+                </section>
+              </div>
+        </div>
+        <div class="container-fluid d-flex flex-column">
+            <img class="prototype-img align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usnMgP.gif" alt="usnMgP.gif" border="0" />
+        </div>
+        <div class="container d-flex flex-column" data-aos="fade-left" id="list-item-4">    
+            <div class="text-content align-self-end">
+                <section>
+                    <div class="section-text">
+                      <h3><b>Impact</b></h3> 
+                    </div> 
+                    <p>Receiving great approval from users, PMs, and engineers, my design helped the project win higher priorities than before for its relatively low cost and high return on user experience and business values. The new data integration hub is currently under development. I’m looking forward to hearing more updates soon.</p>                 
+                  </section>                      
+            </div>                            
+      </div>
+      </div>
+      <div class="content-container" id="list-item-5">
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                <section data-aos="fade-left">
+                  <div class="section-text">
+                        <p class="text-uppercase" id="list-item-6">PRE-RESEARCH</p>
+                        <h3><b>Customer profiles: a unified view of customer data</b></h3> 
+                  </div> 
+                  <p>I got a request from our sales team of exploring the future of Customer 360 to better satisfy user needs. Since the scope was pretty large, I studied the related internal reports and analysis to increase my domain knowledge first. My findings were summarized as a graph below:</p> 
+                </section>
+                <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usnt4s.png" alt="usnt4s.png"/>
+                <p>As a 360-degree view of customers, the customer profiles contribute to a better understanding of customers by bringing together customer data from all touch points.
+                   <br><br>                   
+                    Then I started to familiarize myself with the profile readers, marketers and customer service, from the current user personas. Their shared goal is to better understand the customers:</p><br><br><br>
+                <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usnBuT.png" alt="usnBuT.png"/>            
+                <section data-aos="fade-left">
+                    <div class="section-text">
+                          <p class="text-uppercase" id="list-item-7">USER RESEARCH</p>
+                          <h3><b>How the current customer profiles work in marketing and customer support</b></h3> 
+                    </div> 
+                    <p>But still, I was uncertain about:</p>
+                    <ul>
+                        <li>How do they use customer profiles in work?</li>
+                        <li>Do the current customer profiles meet their goals?</li>                      
+                      </ul> 
+                      <p>​Without chances to contact our users directly, I validated my hypotheses by:</p><br><br><br>
+                      <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usn4KK.png" alt="usn4KK.png"/>
+                      <p>In the current interface, all customer data are gathered in one place:</p>
+                  </section>
+              </div>
+            </div>
+            <div class="container-fluid d-flex flex-column">
+                <img class="illustration-img align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usgg29.png" alt="usgg29.png" border="0" />
+            </div>
+            <div class="container d-flex flex-column">
+                <div class="text-content align-self-end">
+                    <section>
+                      <div data-aos="fade-left">
+                          <div class="section-text" id="list-item-8">
+                              <p class="text-uppercase">PROBLEM FRAMING</p>
+                              <h3><b>The heavy profiles impede relevant insights</b></h3> 
+                          </div> 
+                        <p>After converging all the findings together, I realized the core issues lied in the gap between what we presented and what our users wanted to see:</p><br><br>
+                      </div>
+                      <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usnO2t.png" alt="usnO2t.png"/>
+                      <p><b>Problem 1: Inefficient data loading</b></p>
+                      <p>More often, users only need part of the profiles to assist their job. But to access the information, they have to open the entire system. The slow loading page costs patience and trust.</p><br>
+                      <p><b>Problem 2: Excessive customer information</b></p>
+                      <p>While the customer profiles are comprehensive, they are too heavy to read in a short time. Users suffered hardship gathering their needed customer insights.</p>
+                    </section>
+                  </div>
+            </div>
+      </div>
+      <div class="content-container back-gray" id="list-item-9">
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class="mb-0">
+                    <div data-aos="fade-left">
+                      <div>
+                          <div class="section-text">
+                              <p class="text-uppercase" id="list-item-10">POTENTIAL SOLUTIONS</p>
+                              <h3><b>How might we supply targeted insights in a lightweight view</b></h3> 
+                        </div> 
+                        <p>Together with our sales team, I conceptualized the possible directions to a lightweight view for relevant customer insights:</p><br><br><br>
+                      </div>       
+                    </div>               
+                    <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usuzS1.png" alt="usuzS1.png"/>
+                  </section>
+                  <section>
+                      <div data-aos="fade-left">
+                          <div class="section-text">
+                              <p class="text-uppercase" id="list-item-11">FINAL CONCEPT</p>
+                              <h3><b>A Chrome extension view of customer profiles</b></h3> 
+                        </div> 
+                        <p>Though the project is future-oriented, we expected it to be a real product soon. To balance the desirability and feasibility, we chose Chrome extension as the final direction. It has advantages in:</p>
+                        <ul>
+                            <li>Loading customer profiles within seconds as a small program</li>
+                            <li>Displaying scenario-based content as a contextualized experience</li>
+                        </ul>
+                      </div>                                          
+                  </section>
+                  <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usK5Ae.png" alt="usK5Ae.png"/>                  
+                </div>
+          </div>
+      </div>
+      <div class="content-container" id="list-item-12">
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class="mb-0" data-aos="fade-left">             
+                    <div class="section-text">
+                          <p class="text-uppercase" id="list-item-13">DESIGN FOCUS ONE</p>
+                          <h3><b>Supply relevant customer insights</b></h3> 
+                    </div> 
+                    <p>To define relevant customer insights, I was concerned about two questions:</p>
+                    <ul>
+                      <li>What scenarios require customer profiles?</li>
+                      <li>What customer information is related in these situations?</li>
+                    </ul>
+                    <br>
+                    <p>Since there were no immediate answers, I made hypotheses and confirmed them during iterations.</p><br>
+                    <p><b>01. What scenarios require customer profiles</b></p>
+                    <p>From my previous research, I summarized two main scenarios where users needed customer profiles for assistance:</p><br><br>
+                    <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usMQjx.png" alt="usMQjx.png"/>                    
+                  </section>
+              </div>                        
+              <div class="text-content align-self-end">
+                  <section>                             
+                    <p><b>02. What customer information is related in these situations</b></p>
+                    <p>Accordingly, I revisited and divided the current customer profiles into two main categories: indicual customer and web customer traffic</p>                   
+                  </section>
+                  <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usMwvt.png" alt="usMwvt.png"/>
+              </div>             
+          </div>             
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section data-aos="fade-left">
+                      <div class="section-text">
+                            <p class="text-uppercase" id="list-item-14">DESIGN FOCUS TWO</p>
+                            <h3><b>Present a lightweight view </b></h3> 
+                      </div> 
+                      <p>After the integration overview was clear, two questions came to my mind about the following navigation design:</p>
+                      <ul>
+                        <li>How and when to show the app without disturbance?</li>
+                        <li>What forms and layouts are easy to understand?</li>
+                      </ul>
+                      <br><br>
+                      <p><b>01. How and when to show the app without disturbance</b></p>
+                      <p>As a complimentary application, the goal of the Chrome extension is to optimize but not replace the current workflow. Therefore, the context and timing mattered to my design.
+                        <br><br>
+                          I first analyzed the potential space to display the content. The first option was chosen based on the estimation of the information load and the product goal.</p>                               
+                    </section>
+                </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usGW24.png" alt="usGW24.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section>
+                      <p>Then to trigger the app, I brought up three ideas. I chose the last two as:</p>  
+                      <ul>
+                          <li>To access individual customer’s information, users can right-click the name for higher accuracy </li>
+                          <li>To gather page-based customer traffic, users can simply click the app icon for the extension can detect the content automatically</li>
+                      </ul>                                   
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usGzqI.png" alt="usGzqI.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section>
+                    <p><b>02. What forms and layouts are easy to understand</b></p>
+                    <p>I chose to design two app versions, single customer profile, and group customer traffic, to cater to two different scenarios:</p><br>
+                    <p><b>Single customer profiles</b></p> 
+                    <p>For a single customer profile, my top priority was to ensure easy navigation through different sections:</p>
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usJNe1.png" alt="usJNe1.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>I selected the last option for it conveyed clear meanings of each section and was coherent with the current experience. 
+                      <br><br>
+                        As the basic customer information, users needed the demographics data in many cases. So I evaluated an expandable customer profile header in the following directions: </p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usJISg.png" alt="usJISg.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>The second one got the most user preference for it was easy to find and understand. Additionally, I iterated on the expand/collapse actions:</p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid row d-flex justify-content-center">
+              <!-- <img class="illustration-img col-lg-6" src="https://s2.ax1x.com/2019/10/05/usJISg.png" alt="usJISg.png"/> -->
+              <div class="prototype-section col-lg-5 d-flex flex-wrap justify-content-center">
+                  <img class="prototype-img" width="80%" src="https://s2.ax1x.com/2019/10/05/usY69U.gif" alt="usY69U.gif" border="0">
+                  <p>/ Option A: Collapsed & expanded by scrolling</p>
+              </div>
+              <div class="prototype-section col-lg-5 d-flex flex-wrap justify-content-center">
+                  <img class="prototype-img" width="80%" src="https://s2.ax1x.com/2019/10/05/usYc3F.gif" alt="usYc3F.gif" border="0">
+                  <p>/ Option B: Collapsed & expanded by clicking</p>
+              </div>             
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>I combined the first two designs into a new one for they demonstrated advantages in some aspects but were incomplete as a single solution. In the final option, customer demographics were easy to access while not disturbing the current workflow:</p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid row d-flex justify-content-center">
+            <div class="col-lg-5">
+                <img class="prototype-img justify-content-center align-self-center" width="80%" src="https://s2.ax1x.com/2019/10/05/usNJyQ.gif" alt="usNJyQ.gif"/>
+            </div>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>Then a big challenge came from the huge data table of customer behaviors. After some early experiments, I decided to decompose it as individual table cells. The design variations included:</p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usUo40.png" alt="usUo40.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>Inspired by later talks with internal marketers and customer support, I realized the event time was especially important for users to follow while browsing all the behaviors. Thus I changed the normal table cell design into a timeline list: </p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usaS4x.png" alt="usaS4x.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>After several iterations, the final timeline was as follows. Users can overview the key information and see more details in the expansion.</p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usUzU1.png" alt="usUzU1.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p><b>Customer web traffic</b></p>
+                    <p>Driven by group activities, the customer traffic view focused more on data visualizations to reveal the underlying patterns over time. 
+                      <br><br>
+                        To access data in different time periods, I considered four ways to switch the content:</p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usa3rQ.png" alt="usa3rQ.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>I adopted the header dropdown for users preferred reading data under the same period and updating the content globally.
+                        <br><br>
+                        Then I invested most of my efforts on data visualization design: 
+                        <br><br>                        
+                        First, to reach a balance between information clarity and space usage, I experimented on the amount of information to display in bar charts:</p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usaYan.png" alt="usaYan.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>Some user feedback revealed it was the overall data tendency rather than the detailed figures that mattered in an overview. So I moved part of the information into a hover view:</p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usawxU.png" alt="usawxU.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>Second, some chart axis labels were too long to display in a limited space. To solve this problem, my explorations were as follows:</p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usaDr4.png" alt="usaDr4.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>These three variations turned out to be effective by different label length. So I summarized the patterns behind and applied them in other similar designs.
+                     <br><br>
+                        Another chance came from the choice of chart types. For the gender and age data, I got an initial data view from our client. Noticing its limited usability, I designed two alternatives to enhance the user experience:</p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container-fluid d-flex flex-column">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/usa5se.png" alt="usa5se.png"/>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section class>
+                    <p>The result was cheerful: our client liked the first option for it better satisfied their needs during browsing. </p> 
+                  </section>
+              </div>
+          </div>
+          <div class="container d-flex flex-column">
+              <div class="text-content align-self-end">
+                  <section data-aos="fade-left">
+                      <div class="section-text" id="list-item-15">
+                        <h3><b>Final Design</b></h3> 
+                      </div> 
+                      <p>In the form of a Chrome extension, the final design demonstrated the great potential of customer profiles in varied business scenarios as a lightweight but powerful business insight provider:</p>  
+                    </section>
+              </div>
+          </div>        
+          <div class="container-fluid d-flex flex-column" data-aos="fade-up">
+              <img class="illustration-img justify-content-center align-self-center" width="100%" src="https://s2.ax1x.com/2019/10/05/uswOKS.png" alt="uswOKS.png"/>
+          </div>        
+      </div>
+      <div class="content-container back-gray pb-5">
+        <div class="next-section container d-flex align-items-center flex-nowrap">
+          <a class="next-case-link" href="integration.html"><</a>
+          <div>
+            <div class="next-section-text">
+              <p><b>Data Inetgration Hub</b></p> 
+              <span>Arm Treasure Data</span>
+            </div> 
+          </div>
+        </div>
+        <div class="next-section container d-flex align-items-center flex-nowrap">
+            <a class="next-case-link" href="tencent.html">></a>
+            <div>
+              <div class="next-section-text">
+                <p><b>Teamplate-based Data Import</b></p> 
+                <span>Tencent Market Research Cloud</span>
+              </div> 
+            </div>
+          </div>
+      </div>
+    </main>
+    <footer class="footer d-flex align-items-center">
+      <div class="container footer-container d-flex align-items-center">
+        <div class="row footer-text align-items-center">
+            <div class="copyright col-lg-6">
+              Designed and coded by © 
+              <script>document.write((new Date()).getFullYear());</script>
+              Lidong Liu
+            </div>
+            <div class="col-lg-6 social-buttons social-contact">
+              <a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+                <span class="social-button__inner">
+                 <i class="fab fa-facebook-f"></i>
+                </span>
+              </a>
+              <a href="#" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+                <span class="social-button__inner">
+                 <i class="fab fa-linkedin-in"></i>
+                </span>
+              </a>
+              <a href="#" class="social-buttons__button social-button social-button--snapchat" aria-label="SnapChat">
+                <span class="social-button__inner">
+                 <i class="fab fa-snapchat-ghost"></i>
+                </span>
+              </a>
+              <a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+                <span class="social-button__inner">
+                 <i class="fab fa-github"></i>
+                </span>
+              </a>
+              <a href="#" class="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
+                <span class="social-button__inner">
+                 <i class="fab fa-codepen"></i>
+                </span>
+              </a>
+            </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="script/inobounce.min.js"></script> -->
+    <script src="script/nav.js"></script>
+    <script src="script/case.js"></script>
+    <!-- Android stock browser -->
+    <script>
+        $(function () {
+          var nua = navigator.userAgent
+          var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1)
+          if (isAndroid) {
+            $('select.form-control').removeClass('form-control').css('width', '100%')
+          }
+        })
+    </script>
+</html>
