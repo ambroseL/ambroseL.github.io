@@ -23,17 +23,19 @@ $(function(){
       });
     // $(".content-list").hide();
 
-    var heightList = [];
-    var topList = [];
-
-    $.each($(".container-fluid"), function(){
-        heightList.push($(this).height());
-        topList.push($(this).offset().top);
-        // console.log(heightList);
-    });
-    
-    var len = heightList.length;
     $(window).bind("load", function() {
+        
+        var heightList = [];
+        var topList = [];
+    
+        $.each($(".container-fluid"), function(){
+            heightList.push($(this).height());
+            topList.push($(this).offset().top);
+            // console.log(heightList);
+        });
+        
+        var len = heightList.length;
+
         $(window).on('scroll', function () {
             var scrollHeight = ($(window).height()+$(".content-list").height())/2;
             var pos = scrollHeight + $(window).scrollTop();
