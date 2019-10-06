@@ -194,7 +194,7 @@ $(document).ready(function()
 
     if (location.hash){
         setTimeout(function(){
-            $('html, body').scrollTop(0).show();
+            $('html, body').scrollTop(0);
             jump();
         }, 0);
     }
