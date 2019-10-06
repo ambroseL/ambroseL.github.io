@@ -8,12 +8,12 @@ $(function() {
 
     if (!window.mobilecheck()){
         var playgroungVivus = new Vivus('playground-svg', {
-        duration: 50,
+        duration: 80,
         start: 'manual',
     });
 
     var coverVivus = new Vivus('cover-svg', {
-        duration: 50,
+        duration: 80,
         start: 'manual',
     });
 
