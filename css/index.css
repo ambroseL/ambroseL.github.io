@@ -166,10 +166,10 @@ pre {
   height: 100%;
 }
 
-.outline-button:focus {
+/* .outline-button:focus {
   outline: none;
   color: #fff;
-}
+} */
 
 .square {
   color:lightgray;
