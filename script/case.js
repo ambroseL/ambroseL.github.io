@@ -23,16 +23,16 @@ $(function(){
       });
     // $(".content-list").hide();
 
-    $(window).bind("load", function() {
-        
-        var heightList = [];
-        var topList = [];
+    var heightList = [];
+    var topList = [];
     
-        $.each($(".container-fluid"), function(){
-            heightList.push($(this).height());
-            topList.push($(this).offset().top);
-            // console.log(heightList);
-        });
+    $.each($(".container-fluid"), function(){
+        heightList.push($(this).height());
+        topList.push($(this).offset().top);
+        // console.log(heightList);
+    });
+
+    $(window).bind("load", function() {
         
         var len = heightList.length;
 
