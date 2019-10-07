@@ -23,7 +23,7 @@ $(function(){
       });
     // $(".content-list").hide();
 
-    $(window).bind("load", function() {
+    // $(window).bind("load", function() {
 
         $(window).on('scroll', function () {
             var heightList = [];
@@ -38,7 +38,6 @@ $(function(){
             var pos = scrollHeight + $(window).scrollTop();
             var visible = true;
             var len = heightList.length;
-            
             for(i=0; i<len; i++){
                 var top = topList[i];
                 var height = heightList[i];  
@@ -89,7 +88,7 @@ $(function(){
                 }
             }
         });
-    });
+    // });
 
     // $(window).bind("load", function() {
     //     $(window).on('scroll', function () {
