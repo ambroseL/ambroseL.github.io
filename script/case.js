@@ -90,6 +90,15 @@ $(function(){
         });
     // });
 
+    $('.next-case-link').bind('touchstart', function(e){
+        //some action
+        $(this).addClass("active")
+                .bind("touchend", function() {
+                    $(this).removeClass("active");
+                    // $(this).removeClass("focus");
+                });
+      });
+
     // $(window).bind("load", function() {
     //     $(window).on('scroll', function () {
     //         var secondaryListItems = $('.secondary-list-item');

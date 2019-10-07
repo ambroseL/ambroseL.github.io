@@ -24,6 +24,14 @@ $(function() {
         return true;
     });
 
+    $('.social-button').on("touchstart", function (e) {
+        $(this).addClass("active")
+                .bind("touchend", function() {
+                    $(this).removeClass("active");
+                    $(this).removeClass("focus");
+                });
+    });
+
     body.on('touchstart', function(e){
         e = window.event || e; // 兼容IE7
         var obj = $(e.srcElement || e.target);
@@ -91,7 +99,6 @@ $(function() {
         body.addClass('overflow-hidden');
         sideMenu.addClass("open");
         sideMenu.show();
-
         overlay.fadeIn();
         body.addClass('side-menu-visible');
         $('.dropdown-menu').addClass('mobile');

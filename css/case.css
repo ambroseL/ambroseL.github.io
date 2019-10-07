@@ -262,34 +262,13 @@ li {
 
 .next-case-link:hover, .next-case-link:focus {
     text-decoration: none;
-    color:#FFFFFF;
+    color: #2b2b2b;
     /* border: */
-}
-
-.next-case-link::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    left:50%;
-    top:50%;
-    display: block;
-    border-radius: 100%;
-    transition: 0.3s;
-    background-color: #2b2b2b;
-    color: #FFFFFF;
-    z-index: -1;
-}
-
-.next-case-link:focus::after, .next-case-link:hover::after {
-    width: 100%;
-    height: 100%;
-    left:0;
-    top:0;
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
+
     .content-list {
         display: none;
     }
@@ -300,5 +279,34 @@ li {
 
     .cover {
         padding: 2rem 0 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .next-case-link::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        left:50%;
+        top:50%;
+        display: block;
+        border-radius: 100%;
+        transition: 0.3s;
+        background-color: #2b2b2b;
+        color: #FFFFFF;
+        z-index: -1;
+    }
+
+    .next-case-link:hover, .next-case-link:focus {
+        color:#FFFFFF;
+        /* border: */
+    }
+    
+    .next-case-link:focus::after, .next-case-link:hover::after {
+        width: 100%;
+        height: 100%;
+        left:0;
+        top:0;
     }
 }

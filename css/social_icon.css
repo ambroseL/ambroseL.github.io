@@ -53,15 +53,12 @@
     border-radius: 100%;
     transition: 0.3s;
   }
+
   .social-button:focus, .social-button:hover {
-    color: #fff;
     text-decoration: none; 
   }
-  .social-button:focus::after, .social-button:hover::after {
-    width: 100%;
-    height: 100%;
-  }
-  .social-button--mail {
+
+  .social-button--mail, .social-button--mail:active, .social-button--mail:focus, .social-button--mail:hover {
     color: #eec900;
   }
   .social-button--mail::after {
@@ -73,13 +70,13 @@
   .social-button--facebook::after {
     background: #3b5999;
   }
-  .social-button--linkedin {
+  .social-button--linkedin, .social-button--linkedin:active, .social-button--linkedin:focus, .social-button--linkedin:hover {
     color: #0077b5;
   }
   .social-button--linkedin::after {
     background: #0077b5;
   }
-  .social-button--github {
+  .social-button--github, .social-button--github:active, .social-button--github:focus, .social-button--github:hover {
     color: #6e5494;
   }
   .social-button--github::after {
@@ -122,3 +119,15 @@
     background: #c12127;
   }
   
+  /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .social-button:focus, .social-button:hover {
+    color:#fff;
+  }
+
+  .social-button:focus::after, .social-button:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+}

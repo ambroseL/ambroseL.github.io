@@ -29,7 +29,7 @@ $(function() {
         })
     }         
 
-    $('outline-button').bind('touchstart', function(e){
+    $('.outline-button').bind('touchstart', function(e){
         //some action
         $(this).addClass("active")
                 .bind("touchend", function() {
