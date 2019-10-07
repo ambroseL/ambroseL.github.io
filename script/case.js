@@ -23,23 +23,22 @@ $(function(){
       });
     // $(".content-list").hide();
 
-    var heightList = [];
-    var topList = [];
-    
-    $.each($(".container-fluid"), function(){
-        heightList.push($(this).height());
-        topList.push($(this).offset().top);
-        // console.log(heightList);
-    });
-
     $(window).bind("load", function() {
-        
-        var len = heightList.length;
 
         $(window).on('scroll', function () {
+            var heightList = [];
+            var topList = [];
+    
+            $.each($(".container-fluid"), function(){
+                heightList.push($(this).height());
+                topList.push($(this).offset().top);
+            // console.log(heightList);
+            });
             var scrollHeight = ($(window).height()+$(".content-list").height())/2;
             var pos = scrollHeight + $(window).scrollTop();
             var visible = true;
+            var len = heightList.length;
+            
             for(i=0; i<len; i++){
                 var top = topList[i];
                 var height = heightList[i];  
