@@ -63,7 +63,7 @@
     z-index:1080;
     background:#fff;
     padding:16px 30px;
-    color:#333;
+    color:#4a4a4a;
     transition:0.4s;
   }
   
@@ -80,7 +80,7 @@
   }
   
   #side-menu .nav-link {
-    color:#333;
+    color:#4a4a4a;
   }
   
   #side-menu .nav-link:hover {
@@ -150,7 +150,7 @@
   }
 
   .footer-container .copyright {
-    color: #767676;
+    color: #9A9FA5;
     line-height: .5rem;
     width: 100%;
     text-align: center;
@@ -187,7 +187,7 @@
 
   .dropdown-item:hover {
     background-color:#fff;
-    color: #767676;
+    color: #9A9FA5;
   }
   .navbar {
     background-color: rgba(255,255,255,.98);

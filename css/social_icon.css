@@ -59,7 +59,8 @@
   }
 
   .social-button--mail, .social-button--mail:active, .social-button--mail:focus, .social-button--mail:hover {
-    color: #eec900;
+    /* color: #eec900; */
+    color: #9A9FA5;
   }
   .social-button--mail::after {
     background: #eec900;
@@ -71,13 +72,15 @@
     background: #3b5999;
   }
   .social-button--linkedin, .social-button--linkedin:active, .social-button--linkedin:focus, .social-button--linkedin:hover {
-    color: #0077b5;
+    /* color: #0077b5; */
+    color: #9A9FA5;
   }
   .social-button--linkedin::after {
     background: #0077b5;
   }
   .social-button--github, .social-button--github:active, .social-button--github:focus, .social-button--github:hover {
-    color: #6e5494;
+    /* color: #6e5494; */
+    color: #9A9FA5;
   }
   .social-button--github::after {
     background: #6e5494;

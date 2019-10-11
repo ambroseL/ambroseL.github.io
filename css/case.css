@@ -77,7 +77,7 @@ li {
 }
   
 .case-section-text .text-uppercase {
-    color: #767676;
+    color: #9A9FA5;
 }
   
 .case-section-text h1 {
@@ -113,7 +113,7 @@ li {
 }
   
 .section-text .text-uppercase {
-    color: #767676;
+    color: #9A9FA5;
 }
   
 .section-text h2 {
@@ -219,6 +219,10 @@ li {
     color: #4a4a4a;
 } */
 
+.container-fluid img {
+    width: 80%;
+}
+
 .prototype-img, .illustration-img {
     margin-bottom: 5rem;
     max-width: 1392px;
@@ -237,7 +241,7 @@ li {
 }
 
 .prototype-section p {
-    color:#767676;
+    color:#9A9FA5;
     text-align: center;
 }
 
