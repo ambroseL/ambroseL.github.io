@@ -221,7 +221,7 @@ li {
 
 .prototype-img, .illustration-img {
     margin-bottom: 5rem;
-    max-width: 1392px;
+    max-width: 1110px;
 }
 
 .prototype-img {
@@ -366,5 +366,9 @@ li {
 
     .grid-item img {
         padding: 0 .5rem .5rem;
+    }
+
+    .prototype-section-col {
+        max-width: 1110px;
     }
 }
