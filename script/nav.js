@@ -169,46 +169,46 @@ $(function() {
     //     // console.log('jjj');
     //  });
 
-var jump=function(e)
-{
-
-    if (e){
-        e.preventDefault();
-        var target = $(this).attr("href");
-    }else{
-        var target = location.hash;
-    }
-
-    $('html,body').animate(
+    var jump=function(e)
     {
-        scrollTop: $(target).offset().top-42,
-    },'slow');
 
-    if(window.mobilecheck()){
-        slideOut();
+        if (e){
+            e.preventDefault();
+            var target = $(this).attr("href");
+        }else{
+            var target = location.hash;
+        }
+
+        $('html,body').animate(
+        {
+            scrollTop: $(target).offset().top-42,
+        },'slow');
+
+        if(window.mobilecheck()){
+            slideOut();
+        }
+        // ,function()
+        // {
+        //     location.hash = target;
+        // });
     }
-    // ,function()
-    // {
-    //     location.hash = target;
-    // });
-}
 
-// $('html, body').hide();
+    // $('html, body').hide();
 
-$(document).ready(function()
-{
-    $(document).on('click', 'a[href^="#"]', jump);
+    $(document).ready(function()
+    {
+        $(document).on('click', 'a[href^="#"]', jump);
 
-    if (location.hash){
-        setTimeout(function(){
-            $('html, body').scrollTop(0);
-            jump();
-        }, 0);
-    }
-    // else{
-    //     $('html, body').show();
-    // }
-});
+        if (location.hash){
+            setTimeout(function(){
+                $('html, body').scrollTop(0);
+                jump();
+            }, 0);
+        }
+        // else{
+        //     $('html, body').show();
+        // }
+    });
 
 });
 
