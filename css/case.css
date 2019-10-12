@@ -318,7 +318,7 @@ li {
         padding: 0 0 1rem;
     }
 
-    .grid:last-child img {
+    .grid-item:last-child img {
         padding: 0rem;
     }
 }
