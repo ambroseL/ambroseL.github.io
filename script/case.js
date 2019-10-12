@@ -41,11 +41,16 @@ $(function(){
             var heightList = [];
             var topList = [];
     
+            var cover = $('.cover');
+            heightList.push(cover.height());
+            topList.push(cover.offset().top);
+
             $.each($(".container-fluid"), function(){
                 heightList.push($(this).height());
                 topList.push($(this).offset().top);
            
             });
+
             var scrollHeight = ($(window).height()+$(".content-list").height())/2;
             var pos = scrollHeight + $(window).scrollTop();
             var visible = true;
