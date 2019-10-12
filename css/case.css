@@ -219,10 +219,6 @@ li {
     color: #4a4a4a;
 } */
 
-.container-fluid img {
-    width: 80%;
-}
-
 .prototype-img, .illustration-img {
     margin-bottom: 5rem;
     max-width: 1392px;
@@ -312,5 +308,9 @@ li {
         height: 100%;
         left:0;
         top:0;
+    }
+
+    .container-fluid img {
+        width: 80%;
     }
 }

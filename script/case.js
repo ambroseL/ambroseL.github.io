@@ -32,7 +32,7 @@ $(function(){
             $.each($(".container-fluid"), function(){
                 heightList.push($(this).height());
                 topList.push($(this).offset().top);
-            // console.log(heightList);
+           
             });
             var scrollHeight = ($(window).height()+$(".content-list").height())/2;
             var pos = scrollHeight + $(window).scrollTop();
@@ -43,7 +43,6 @@ $(function(){
                 var height = heightList[i];  
                 if(pos>top && pos<top+height){
                     visible = false;
-                    // break;
                 }
             }
             if(visible){
@@ -55,7 +54,7 @@ $(function(){
                 });
             }
 
-            // console.log(visible);
+            // // console.log(visible);
 
             var secondaryListItems = $('.secondary-list-item');
             var primaryListItems = $('.primary-list-item');
