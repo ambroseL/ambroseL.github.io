@@ -268,6 +268,7 @@ li {
 
 .grid {
     margin-bottom: 5rem;
+    max-width: 1110px;
 }
 
 .grid-sizer,
