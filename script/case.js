@@ -21,7 +21,7 @@ $(function(){
         anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
       
       });
-    // $(".content-list").hide();
+      $(".content-list").css('opacity','0');
 
     // init Masonry
     var $grid = $('.grid').masonry({
