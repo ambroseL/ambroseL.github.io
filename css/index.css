@@ -198,6 +198,14 @@ pre {
     margin-bottom: 3rem;
   }
 
+  .outline-button {
+    display: none;
+  }
+
+  .intro-right {
+    margin: 0;
+  }
+
 }
   
 /* Large devices (desktops, 992px and up) */
