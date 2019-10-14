@@ -165,7 +165,7 @@ li {
     color:#4a4a4a;
 }
 
-.list-group-item:hover, .list-group-item.active {
+.list-group-item:hover, .list-group-item.active, .list-group-item:focus {
     background-color: transparent;
     color: #4a4a4a;
     display: blcok;
