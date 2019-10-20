@@ -11,13 +11,17 @@
 
 .card {
   border:none;
-  padding:1rem 1rem .5rem;
+  padding: 1rem 1rem 2rem;
   background-color: rgba(0,0,0,0);
+}
+
+.first-card {
+  padding: 2rem;
 }
 
 .card-content {
   background-color: white;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   white-space: normal;
   box-shadow: 0 10px 10px rgba(0,0,0,.04);
   border: 1px solid #EBEBEC;
@@ -91,7 +95,7 @@ iframe {
 
 @media (min-width: 992px) {
   .card {
-    padding:2rem 2rem 1rem;
+    padding: 2rem;
   }
 
   .card-content:hover {
@@ -101,7 +105,11 @@ iframe {
   }
 
   .first-card {
-    padding:2rem 3rem 1rem;
+    padding:2rem 3rem 3rem;
+  }
+
+  .left-card, .right-card {
+    padding:1rem 2rem 2rem;
   }
 
 }
@@ -126,9 +134,6 @@ iframe {
     min-height: 20rem;
   }
 
-  .first-card {
-    padding:2rem 2rem 1rem;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
