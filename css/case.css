@@ -90,7 +90,7 @@ li {
     width: 85%;
 }
 
-.case-intro-right ul {
+.case-intro-right p, .case-intro-right ul {
     max-width: 60%;
     /* padding-left: 0; */
 }
@@ -297,7 +297,7 @@ li {
     .content-list {
         display: none;
     }
-    .case-intro-right ul {
+    .case-intro-right p, .case-intro-right ul {
         max-width: 100%;
         /* padding-left: 0; */
     }
