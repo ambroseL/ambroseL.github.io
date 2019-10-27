@@ -182,6 +182,10 @@ pre {
     width:90%;
   } */
 
+  .self-intro-text {
+    padding-left: .5rem;
+  }
+
   .intro-space {
     padding: 3rem 0;
   }
