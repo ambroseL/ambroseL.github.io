@@ -4,6 +4,10 @@
     padding: 0;
   }
   
+  .fixed-top {
+    z-index: 1;
+  }
+
   .navbar-nav {
     transition: all .3s;
   }
