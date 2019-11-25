@@ -314,16 +314,6 @@ li {
     text-decoration: underline;
 }
 
-  /* Small devices (landscape phones, 576px and up) */
-  @media (max-width: 576px) {
-    .process-card  {
-        padding: 1.75rem 1.5rem; 
-        margin: .5rem .5rem;
-        min-height: 16rem;
-        max-width: 500rem;
-    }
-}
-
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
 
@@ -365,6 +355,13 @@ li {
 
     .process-break {
         display: inline;
+    }
+}
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 576px) {
+    .process-card  {
+        max-width: 500rem;
     }
 }
 
