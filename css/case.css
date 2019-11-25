@@ -315,12 +315,12 @@ li {
 }
 
   /* Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) {
+  @media (max-width: 576px) {
     .process-card  {
         padding: 1.75rem 1.5rem; 
         margin: .5rem .5rem;
         min-height: 16rem;
-        max-width: 50;
+        max-width: 500rem;
     }
 }
 
