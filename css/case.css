@@ -362,6 +362,7 @@ li {
   @media (max-width: 576px) {
     .process-card  {
         max-width: 500rem;
+        min-height: 0;
     }
 }
 
