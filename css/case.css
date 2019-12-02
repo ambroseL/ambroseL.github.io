@@ -317,6 +317,7 @@ li {
 .process-card a {
     color: #4a4a4a;
     text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 /* Large devices (desktops, 992px and up) */

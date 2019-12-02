@@ -235,6 +235,7 @@
     background-color:#000;
     color:#fff;
     text-decoration: underline;
+    text-decoration-style: dotted;
   }
 
   .nav-item:hover, .nav-item:hover .nav-link {
