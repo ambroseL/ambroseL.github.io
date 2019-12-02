@@ -91,8 +91,12 @@ li {
 }
 
 .case-intro-right p, .case-intro-right ul {
-    max-width: 80%;
+    /* max-width: 80%; */
     /* padding-left: 0; */
+}
+
+.case-intro-left {
+    padding-left: 2rem;
 }
 
 .case-intro-section p{
@@ -317,12 +321,12 @@ li {
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
 
+    .case-intro-left {
+        padding-left: 1rem;
+    }
+
     .content-list {
         display: none;
-    }
-    .case-intro-right p, .case-intro-right ul {
-        max-width: 100%;
-        /* padding-left: 0; */
     }
 
     .cover {
