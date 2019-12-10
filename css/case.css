@@ -14,6 +14,7 @@ body {
     background-color:#FCFCFC; */
     font-family: 'Nunito', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+  
 
 section {
     margin-bottom: 5rem;
@@ -241,7 +242,8 @@ li {
 }
 
 .prototype-section p {
-    color:#9A9FA5;
+    font-size: 1rem;
+    color:#4F4F4F;
     text-align: center;
 }
 
