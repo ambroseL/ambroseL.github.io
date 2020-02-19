@@ -10,6 +10,16 @@
 
       gtag('config', 'UA-149481915-1');
     </script>
+    <!-- Note: plugin scripts must be included after the tracking snippet. -->
+    <script src="https://ipmeta.io/plugin.js"></script>
+
+    <script>
+    provideGtagPlugin({
+      serviceProvider: 'dimension1',
+      networkDomain: 'dimension2',
+      networkType: 'dimension3',
+    });
+    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
