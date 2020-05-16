@@ -80,7 +80,10 @@
   }
   
   #side-menu .contents {
-    margin-top: 20px;
+    /* margin-top: 50px; */
+    position: absolute; 
+    top: 50%;  
+    transform: translateY(-50%);
   }
   
   #side-menu .nav-link {
