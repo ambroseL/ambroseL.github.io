@@ -191,11 +191,6 @@
     background-color: #fff;
   }
 
-  .scaleOut {
-    transform: scaleX(1.5);
-    opacity:0;
-  }
-
   #wave {
     height: 170px;
     width: 170px;
