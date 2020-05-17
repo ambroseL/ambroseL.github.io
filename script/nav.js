@@ -180,11 +180,13 @@ $(function() {
         }else{
             var target = location.hash;
         }
-
+        $('body').css({'position':'auto'});
         $('html,body').animate(
-        {
+        { 
             scrollTop: $(target).offset().top-42,
         },'slow');
+
+        window.targetOffset = $(target).offset().top-42;
 
         if(window.mobilecheck()){
             slideOut();
