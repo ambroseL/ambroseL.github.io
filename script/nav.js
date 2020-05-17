@@ -180,6 +180,7 @@ $(function() {
         }else{
             var target = location.hash;
         }
+        
         window.targetOffset = $(target).offset().top-42;
         
         $('html,body').animate(
