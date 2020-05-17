@@ -187,17 +187,15 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    -webkit-transition: opacity 1s ease;
-    -moz-transition: opacity 1s ease;
-    -o-transition: opacity 1s ease;
-    transition: opacity 1s ease;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
+    transition: all 1.5s ease;
     background-color: #fff;
   }
-  
+
+  .scaleOut {
+    transform: scaleX(1.5);
+    opacity:0;
+  }
+
   #wave {
     height: 170px;
     width: 170px;
