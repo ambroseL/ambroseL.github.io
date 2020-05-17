@@ -1,4 +1,6 @@
+
 $(function() {
+    
 
     var body = $('body');
     var navbar = $('.navbar');
