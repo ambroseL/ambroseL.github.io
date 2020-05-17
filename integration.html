@@ -560,8 +560,11 @@
     <script> 
         window.onload = function() {
             // $('body').css({'position':'fixed'});
-            $('html, body').css({ 'overflow': 'hidden', 'height': '100%' })
-            $( ".loader").toggleClass("scaleOut").delay(1500).promise().done(function(){
+            $('body').css({'position':'fixed'});
+            $( ".loader").animate({
+                transform: scaleX(1.5),
+                opacity:0
+            }, 1500, function(){
                 AOS.init({
                     // Global settings:
                     disable:  window.mobilecheck(), // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

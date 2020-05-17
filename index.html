@@ -755,7 +755,10 @@
         window.onload = function() {
             // var currentTop = Math.max($(window).scrollTop(), window.targetOffset);
             $('body').css({'position':'fixed'});
-            $( ".loader").toggleClass("scaleOut").delay(1500).promise().done(function(){
+            $( ".loader").animate({
+                transform: scaleX(1.5),
+                opacity:0
+            }, 1500, function(){
                 AOS.init({
                     // Global settings:
                     disable:  window.mobilecheck(), // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
