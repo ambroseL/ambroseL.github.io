@@ -33,6 +33,8 @@ window.onload = function() {
         return check;
         };
         $('.loader').hide();
+        $( ".navbar" ).css( "opacity", "1");
+        $( ".cover" ).css( "opacity", "1");
     });
 } 
 
