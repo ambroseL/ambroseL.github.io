@@ -223,9 +223,6 @@ $(function() {
         
         window.targetOffset = $(target).offset().top-42;
         
-        $('.loader').show();
-        $('.loader').removeClass('scaleOut');
-        
         $('html,body').animate(
         { 
             scrollTop: $(target).offset().top-42,
@@ -247,6 +244,8 @@ $(function() {
         $(document).on('click', 'a[href^="#"]', jump);
 
         if (location.hash){
+            $('.loader').show();
+            $('.loader').removeClass('scaleOut');
             setTimeout(function(){
                 $('html, body').scrollTop(0);
                 jump();
