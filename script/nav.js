@@ -244,8 +244,8 @@ $(function() {
         $(document).on('click', 'a[href^="#"]', jump);
 
         if (location.hash){
-            $('.loader').show();
-            $('.loader').removeClass('scaleOut');
+            // $('.loader').show();
+            // $('.loader').removeClass('scaleOut');
             setTimeout(function(){
                 $('html, body').scrollTop(0);
                 jump();
