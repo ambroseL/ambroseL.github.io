@@ -223,6 +223,9 @@ $(function() {
         
         window.targetOffset = $(target).offset().top-42;
         
+        $('.loader').show();
+        $('.loader').removeClass('scaleOut');
+        
         $('html,body').animate(
         { 
             scrollTop: $(target).offset().top-42,
