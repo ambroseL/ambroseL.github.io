@@ -348,7 +348,8 @@
   .nav-item:hover, .nav-item:hover .nav-link {
     background-color: #000;
     color: #fff;
-    text-decoration:none;
+    text-decoration: underline;
+    text-decoration-style: dotted;
   }
 
   .navbar.scroll-up {
