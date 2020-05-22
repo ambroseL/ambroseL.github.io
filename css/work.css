@@ -61,13 +61,6 @@ iframe {
   position: relative;
 }
 
-.design-card-description {
-  color:#4a4a4a;
-  font-weight:400;
-  font-size: 1.75rem;
-  line-height: 1.2; 
-}
-
 .design-card-title {
   font-size: 2.5rem;
   color: #2b2b2b;
@@ -121,19 +114,6 @@ iframe {
     padding: 3rem 0rem 3rem;
   }
 
-  .card-content {
-    min-height: 20rem;
-    /* padding: 1rem 0; */
-  }
-
-  .card-space-container .left-card .card-content, .card-space-container .right-card .card-content {
-    min-height: 20rem;
-  }
-
-  .video-card .card-content {
-    min-height: 20rem;
-  }
-
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -154,5 +134,54 @@ iframe {
   /* #cover-svg *, #playgrounf-svg *{
     fill-opacity: 0;
   } */
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.75rem;
+  }
+
+  h3 {
+      font-size: 1.5rem;
+  }
+
+  p {
+      font-size: 1.25rem;
+  }
+
+  .design-card-title {
+    font-size: 2rem;
+  }
+  
+  .design-card-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.25; 
+    /* margin-bottom: 1rem; */
+  }
+  
+  .design-card-description {
+    font-size: 1.5rem;
+    line-height: 1.25; 
+  }
+
+  .card-block {
+    padding: 1.5rem;
+  }
+
+  .card-content {
+    min-height: 1px;
+    /* padding: 1rem 0; */
+  }
+
+  .card-space-container .left-card .card-content, .card-space-container .right-card .card-content {
+    min-height: 1px;
+  }
+
+  .video-card .card-content {
+    min-height: 1px;
+  }
+
 }
   
