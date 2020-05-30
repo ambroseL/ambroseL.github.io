@@ -78,11 +78,11 @@ pre {
 }
 
 .theory-space {
-  min-height: calc(100vh - 4rem);
+  /* min-height: calc(100vh - 4rem); */
   padding: 7rem 1rem;
 }
 
-.theory-intro {
+.theory-space .intro-left{
   margin-bottom: 5rem;
 }
 
@@ -226,9 +226,9 @@ pre {
     margin: 0 1.5rem;
   } */
 
-  .theory-intro {
+  /* .theory-intro {
     margin-bottom: 3rem;
-  }
+  } */
 
   .outline-button {
     display: none;
